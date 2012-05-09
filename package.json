@@ -1,0 +1,25 @@
+{
+  "name": "stack-parser",
+  "description": "Error stack parser.",
+  "keywords": [],
+  "version": "0.0.1",
+  "author": "Ivan Zhidkov <scaryzet@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/scaryzet/node-stack-parser.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://raw.github.com/scaryzet/node-stack-parser/master/LICENSE"
+  }
+}
