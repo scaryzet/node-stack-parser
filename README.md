@@ -22,13 +22,13 @@ items.forEach(function(item) {
 // Use custom formatting.
 
 items.forEach(function(item) {
-	console.log(item.format('%what (%file, line: %line, column: %column)');
+	console.log(item.format('%what (%file, line: %line, column: %column)'));
 });
 
 // Use custom short formatting.
 
 items.forEach(function(item) {
-	console.log(item.format('%w (%f, line: %l, column: %c)');
+	console.log(item.format('%w (%f, line: %l, column: %c)'));
 });
 
 // Get a "current stack", synonym for "stackParser.parse((new Error).stack);".
